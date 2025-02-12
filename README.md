@@ -6,7 +6,9 @@
 > ref: [Register a client application with Microsoft Entra ID](https://learn.microsoft.com/en-us/information-protection/develop/setup-configure-mip#register-a-client-application-with-microsoft-entra-id)
 
 <br> :thought_balloon:	Configure sensitivity labels
-If you're currently using Azure Information Protection, you must migrate your labels to Office 365 Security and Compliance Center. For more information on the process, see [How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center.](https://learn.microsoft.com/en-us/azure/information-protection/configure-policy-migrate-labels)
+> Create your first sensitivity label. (https://learn.microsoft.com/en-us/purview/create-sensitivity-labels)
+> 
+> If you're currently using Azure Information Protection, you must migrate your labels to Office 365 Security and Compliance Center. For more information on the process, see [How to migrate Azure Information Protection labels to the Office 365 Security & Compliance Center.](https://learn.microsoft.com/en-us/azure/information-protection/configure-policy-migrate-labels)
 <table aria-label="Table 1" class="table table-sm margin-top-none">
 <thead>
 <tr>
