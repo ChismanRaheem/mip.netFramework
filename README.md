@@ -1,4 +1,5 @@
-# MIPs C# 
+# Microsoft Purview Information Protection/Mip C# 
+Microsoft Purview Information Protection (formerly Microsoft Information Protection) to help you discover, classify, and protect sensitive information wherever it lives or travels(https://learn.microsoft.com/en-us/purview/information-protection)
 ## Console Application
 #### The Quickstart is centered around building applications that use the MIP SDK libraries and APIs.
 > [!NOTE]
