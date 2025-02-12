@@ -24,7 +24,7 @@ public string AcquireToken(Identity identity, string authority, string resource,
         _app = PublicClientApplicationBuilder.Create(_appInfo.ApplicationId).WithAuthority(authority).WithDefaultRedirectUri().Build();
         var accounts = (_app.GetAccountsAsync()).GetAwaiter().GetResult();
 
-        // Append .default to the resource passed in to AcquireToken()..
+        // Append .default to the resource passed in to AcquireToken().
         string[] scopes = new string[] { resource[resource.Length - 1].Equals('/') ? $"{resource}.default" : $"{resource}/.default" };
         var result = _app.AcquireTokenInteractive(scopes).WithAccount(accounts.FirstOrDefault()).WithPrompt(Prompt.SelectAccount)
                    .ExecuteAsync().ConfigureAwait(false).GetAwaiter().GetResult();
